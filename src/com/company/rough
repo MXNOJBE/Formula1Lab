@@ -1,0 +1,38 @@
+package com.company;
+
+public class DragReductionInfluence {
+    int drs = 12;
+
+}
+public class TopSpeed extends DragReductionInfluence {
+
+    public TopSpeed() {
+
+        String driverName = "Alan van de Merwe";
+        double topSpeed = 397.360;
+        String teamName = "Honda";
+        System.out.println("The Highest speed ever achieved in a formula 1 car is by" + teamName+"of speed"+topSpeed+ "driven by driver" + driverName );
+    }
+
+    public TopSpeed(int year) {
+        String driverName = "Sebastian Vettel";
+        String teamName = "Ferrari";
+        int topSpeed =(int) 300.0 - drs;
+        System.out.println("The top speed of the ferrari 2019 was "+ topSpeed);
+    }
+    public class TopSpeed extends DragReductionInfluence {
+
+        public TopSpeed() {
+
+            String driverName = "Alan van de Merwe";
+            double topSpeed = 397.360;
+            String teamName = "Honda";
+            System.out.println("The Highest speed ever achieved in a formula 1 car is by" + teamName+"of speed"+topSpeed+ "driven by driver" + driverName );
+        }
+
+        public TopSpeed(int year) {
+            String driverName = "Sebastian Vettel";
+            String teamName = "Ferrari";
+            int topSpeed =(int) 300.0 - drs;
+            System.out.println("The top speed of the ferrari 2019 was "+ topSpeed);
+        }
